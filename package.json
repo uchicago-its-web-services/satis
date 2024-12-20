@@ -1,18 +1,18 @@
 {
     "devDependencies": {
-        "@babel/core": "^7.24.8",
-        "@babel/preset-env": "^7.24.8",
-        "@symfony/webpack-encore": "^4.6.1",
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "@symfony/webpack-encore": "^5.0.1",
         "bootstrap": "^5.3.3",
-        "date-fns": "^3.6.0",
+        "date-fns": "^4.1.0",
         "eslint-webpack-plugin": "^4.2.0",
-        "husky": "^8.0.3",
-        "lint-staged": "^15.2.7",
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
         "prettier": "^3.3.3",
         "purgecss-webpack-plugin": "^5.0.0",
-        "sass": "^1.77.8",
-        "sass-loader": "^14.2.1",
-        "webpack": "^5.93.0",
+        "sass": "^1.81.0",
+        "sass-loader": "^16.0.3",
+        "webpack": "^5.96.1",
         "webpack-cli": "^5.1.4"
     },
     "license": "MIT",
@@ -35,5 +35,6 @@
         "*.{json,scss,css,md}": [
             "prettier --write"
         ]
-    }
+    },
+    "type": "module"
 }
